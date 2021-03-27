@@ -32,10 +32,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -58,51 +58,41 @@
     <!-- End navigation bar -->
 
     <!-- Jumbotron -->
-    <div class="jumbotron aboutUsBackground">
+    <div class="jumbotron contactBackground">
         <div class="jumboCopy">
-            <h1 class="display-4">About Us</h1>
-            <p class="lead">Forest Wedding is more than a venue - it's an entire wedding experience.</p>
+            <h1 class="display-4">Contact Us</h1>
+            <p class="lead">Do you have any questions? Please do not hesitate to contact us directly. Our team will come
+                back to you within
+                a matter of hours to help you.</p>
         </div>
     </div>
     <!-- End jumbotron -->
 
-    <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Where unforgettable happens</h2>
-                <p>With unparalleled beauty and flexibility, a wedding at Forest Wedding is nothing short of magical.
-                    Fifty-one miles north of Truckee and 54 miles northwest of Reno our ten-acre Lost Sierra resort was
-                    created exclusively for destination weddings or for those looking for a unique experience where you
-                    and your beloved ones can spend a weekend together at your own private oasis.</p>
-
-            </div>
-            <div class="col-lg-4">
-                <h2>Our venue, your canvas</h2>
-                <p>Hold your ceremony on a sprawling lawn, take portraits by our fishing pond or host a cocktail hour on
-                    the poolside terrace. Let your guests dance the night away on our 9-hole executive golf course.
-                    Intimate or epic, indoors or under the stars, with private and exclusive use of the entire resort,
-                    the choice is yours. This is your day, your vision, and this is the place that can make it a
-                    reality. </p>
-
-            </div>
-            <div class="col-lg-4">
-                <h2>Let your dreams come true</h2>
-                <p>More than just a venue, a wedding at Forest Wedding includes complete planning & design services for
-                    all of our clients. Planning a wedding is truly an art, which is the very reason why couples rely on
-                    the knowledge, preparedness and creativity of wedding professionals who have been down this road “a
-                    time or two” to guide you on this extraordinary journey.</p>
-            </div>
+    <form>
+        <div class="form-group">
+            <label for="inputEmail4">Your Name</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="First Name">
         </div>
-    </div> <!-- /container -->
-    <div class="emailContain">
-        <form>
-            <div class="form-group">
-                <h3 class="sectionHeading">Ready to have a wedding of your dreams?</h3>
-                <a href="#" class="btn btn-primary">Book Now</a>
+        <div class="form-group">
+            <label for="inputPassword4">Your Email</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="example@gmail.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Choose topic</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Wedding</option>
+                <option>Photoshoot request</option>
+                <option>Business request</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 
-        </form>
-    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -115,8 +105,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
-
 
 </body>
 
