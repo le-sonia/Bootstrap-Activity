@@ -1,0 +1,179 @@
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'EB Garamond', serif;
+  }
+
+  p {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Navigation bar */
+  .navbar-light .navbar-nav .active>.nav-link {
+      color: green;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+      color: #000000;
+  }
+
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color:rgba(255, 255, 255, 0.5) !important;
+    background-size: cover;
+    z-index: 10;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+
+  .nav-item {
+    margin: 0px 15px;
+    color: white !important;
+  }
+
+  .btn {
+      background-color: #2d4221;
+      border: 1px solid #2d4221;
+      color: white !important;
+  }
+  
+  .btn:hover {
+background-color: #f0cdb5;
+border: 1px solid #f0cdb5;
+color: #000000 !important;
+  } 
+
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #2d4221;
+      text-decoration: none;
+      background: #f0cdb5;
+  }
+  
+  /* Navigation links */
+  /* .customNav a {
+    color: #000000 !;
+  }
+  .navCTA {
+    font-size: 15px;
+    color: white !important;
+  } */
+  
+  /* Jumbotron  */
+  .jumbotron {
+    /* background-image: url(https://images.unsplash.com/photo-1524563216914-d552816e4d67?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDZ8fHdlZGRpbmd8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60); */
+    background-image: url(https://images.unsplash.com/photo-1568891806972-a5c2a08940bd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTg5fHx3ZWRkaW5nfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Jumbotron copy */
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Cards */
+  .content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  
+  /* Content */
+  .sideAccent {
+    background: #2d4221;
+    width: 15px;
+  }
+  .imageContainer img {
+    width: 100%;
+  }
+  .imageContainer {
+    padding: 50px;
+  }
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Footer */
+  .emailContain {
+    background: url(../images/emailBG.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+  
+  /* Footer form */
+  form {
+    width: 500px;
+    margin: 35px auto;
+    padding: 45px;
+    border: 1px solid #F2F2F2;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
+  .dropdown-menu {
+    left: -97px;
+  }
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+  }
+  .cardContainer {
+    margin-top: 20px;
+  }
+  .card {
+    margin: 0 auto;
+  }
+
+  .aboutUsBackground {
+      background-image: url(https://images.unsplash.com/photo-1597861405049-0b011428568f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjcxfHx3ZWRkaW5nfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: calc(100vh - 25px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
