@@ -101,7 +101,8 @@ color: #000000 !important;
   .sectionHeading {
     text-align: center;
     padding: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   .showsNear  {
     padding: 0px 30px 30px 30px;
