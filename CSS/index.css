@@ -20,7 +20,7 @@ h1, h2, h3 , h4, h5, h6 {
     position: fixed;
     width: 100%;
     background: url("../images/transparency.png");
-    background-color:rgba(255, 255, 255, 0.5) !important;
+    background-color:rgba(255, 255, 255, 0.7) !important;
     background-size: cover;
     z-index: 10;
   }
@@ -55,7 +55,7 @@ color: #000000 !important;
   /* Navigation dropdown menu */
   .dropdown-menu {
     background: url("../images/transparency.png");
-    background-color: rgba(255, 255, 255, 0.5) !important;
+    background-color: rgba(255, 255, 255, 0.7) !important;
     background-size: cover;
   }
   .dropdown-item:focus, .dropdown-item:hover {
@@ -65,13 +65,13 @@ color: #000000 !important;
   }
   
   /* Navigation links */
-  /* .customNav a {
+  .customNav a {
     color: #000000 !;
   }
   .navCTA {
     font-size: 15px;
     color: white !important;
-  } */
+  }
   
   /* Jumbotron  */
   .jumbotron {
@@ -119,9 +119,15 @@ color: #000000 !important;
   .imageContainer {
     padding: 50px;
   }
+
   .valueProp {
     margin-top: 15px;
     margin-bottom: 15px;
+    background-color: rgba(240, 205, 181, 0.2);
+  }
+
+  .valueProp .text {
+      padding: 70px;
   }
   
   /* Footer */
@@ -187,9 +193,31 @@ color: #000000 !important;
         justify-content: center;
       }
 
+      .galleryBackground {
+        background-image: url(https://images.unsplash.com/photo-1520869309377-88c9274a27c2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTI3fHx3ZWRkaW5nfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: calc(100vh - 25px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
 .jumboCopy {
     background-color: rgba(0, 0, 0, 0.20);
 }
 
+.galleryContainer {
+    margin: 20px;
+    
+}
+.galleryContainer img {
+    height: 200px;
+    width: 200px;
+}
 
-   
+.galleryContainer .galleryImage {
+    margin: 10px !important;
+}
+
+
