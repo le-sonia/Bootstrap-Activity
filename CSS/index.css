@@ -100,6 +100,8 @@ color: #000000 !important;
   }
   .sectionHeading {
     text-align: center;
+    padding: 20px;
+    margin-top: 15px;
   }
   .showsNear  {
     padding: 0px 30px 30px 30px;
@@ -203,6 +205,17 @@ color: #000000 !important;
         justify-content: center;
       }
 
+      .generalBackground {
+        background-image: url(https://images.unsplash.com/photo-1597145757959-4d2538ec7f2e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTIzfHx3ZWRkaW5nfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: calc(100vh - 25px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+
 .jumboCopy {
     background-color: rgba(0, 0, 0, 0.20);
 }
@@ -219,5 +232,3 @@ color: #000000 !important;
 .galleryContainer .galleryImage {
     margin: 10px !important;
 }
-
-
