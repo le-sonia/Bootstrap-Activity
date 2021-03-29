@@ -76,7 +76,7 @@ color: #000000 !important;
   /* Jumbotron  */
   .jumbotron {
     /* background-image: url(https://images.unsplash.com/photo-1524563216914-d552816e4d67?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDZ8fHdlZGRpbmd8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60); */
-    background-image: url(https://images.unsplash.com/photo-1568891806972-a5c2a08940bd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTg5fHx3ZWRkaW5nfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    background-image: url(../Images/image20.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -177,7 +177,7 @@ color: #000000 !important;
   }
 
   .aboutUsBackground {
-      background-image: url(https://images.unsplash.com/photo-1597861405049-0b011428568f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjcxfHx3ZWRkaW5nfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+      background-image: url(../Images/image5.jpeg);
       background-size: cover;
       background-repeat: no-repeat;
       height: calc(100vh - 25px);
@@ -187,7 +187,9 @@ color: #000000 !important;
     }
 
     .contactBackground {
-        background-image: url(https://images.unsplash.com/photo-1565038930214-09566ed2149b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzU4fHx3ZWRkaW5nfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+        /* background-image: url(https://images.unsplash.com/photo-1565038930214-09566ed2149b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzU4fHx3ZWRkaW5nfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60); */
+        /* background-image: url(https://images.unsplash.com/photo-1511288702291-e55d6cfbe3b5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJ1c3RpYyUyMHdlZGRpbmd8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60); */
+        background-image: url(../Images/image25.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         height: calc(100vh - 25px);
@@ -197,7 +199,7 @@ color: #000000 !important;
       }
 
       .galleryBackground {
-        background-image: url(https://images.unsplash.com/photo-1520869309377-88c9274a27c2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTI3fHx3ZWRkaW5nfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+        background-image: url(../Images/image28.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         height: calc(100vh - 25px);
@@ -207,7 +209,17 @@ color: #000000 !important;
       }
 
       .generalBackground {
-        background-image: url(https://images.unsplash.com/photo-1581463985655-1f72595b12e8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTUyfHx3ZWRkaW5nfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+        background-image: url(../Images/image26.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: calc(100vh - 25px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .menuBackground {
+        background-image: url(https://images.unsplash.com/photo-1520869578617-557561d7b114?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnw4MzYyODcxfHxlbnwwfHx8&auto=format&fit=crop&w=800&q=60);
         background-size: cover;
         background-repeat: no-repeat;
         height: calc(100vh - 25px);
