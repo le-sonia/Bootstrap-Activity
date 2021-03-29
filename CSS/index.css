@@ -5,15 +5,7 @@ h1, h2, h3 , h4, h5, h6 {
   p {
     font-family: 'Open Sans', sans-serif;
   }
-  
-  /* Navigation bar */
-  .navbar-light .navbar-nav .active>.nav-link {
-      color: green;
-  }
 
-  .navbar-light .navbar-nav .nav-link {
-      color: #000000;
-  }
 
   /* General */
   .customNav {
@@ -41,14 +33,14 @@ h1, h2, h3 , h4, h5, h6 {
   }
 
   .btn {
-      background-color: #2d4221;
-      border: 1px solid #2d4221;
+      background-color: #92A471;
+      border: 1px solid #92A471;
       color: white !important;
   }
   
   .btn:hover {
-background-color: #f0cdb5;
-border: 1px solid #f0cdb5;
+background-color: #DBBCAA;
+border: 1px solid #DBBCAA;
 color: #000000 !important;
   } 
 
@@ -59,19 +51,26 @@ color: #000000 !important;
     background-size: cover;
   }
   .dropdown-item:focus, .dropdown-item:hover {
-      color: #2d4221;
+      color: #92A471;
       text-decoration: none;
-      background: #f0cdb5;
+      background: #DBBCAA;
   }
   
   /* Navigation links */
   .customNav a {
-    color: #000000 !;
+    color: #000000 !important;
   }
+
+  .navbar-light .navbar-nav .active>.nav-link {
+    color: #632A2F !important;
+}
+  
   .navCTA {
     font-size: 15px;
     color: white !important;
   }
+
+  
   
   /* Jumbotron  */
   .jumbotron {
@@ -113,7 +112,7 @@ color: #000000 !important;
   
   /* Content */
   .sideAccent {
-    background: #2d4221;
+    background: #DBBCAA;
     width: 15px;
   }
   .imageContainer img {
@@ -126,7 +125,7 @@ color: #000000 !important;
   .valueProp {
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: rgba(240, 205, 181, 0.2);
+    /* background-color: ##DBBCAA; */
   }
 
   .valueProp .text {
@@ -172,12 +171,13 @@ color: #000000 !important;
   .cardContainer {
     margin-top: 20px;
   }
+
   .card {
     margin: 0 auto;
   }
 
   .aboutUsBackground {
-      background-image: url(../Images/image5.jpeg);
+      background-image: url(../Images/image28.jpeg);
       background-size: cover;
       background-repeat: no-repeat;
       height: calc(100vh - 25px);
@@ -199,7 +199,7 @@ color: #000000 !important;
       }
 
       .galleryBackground {
-        background-image: url(../Images/image28.jpeg);
+        background-image: url(../Images/image5.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         height: calc(100vh - 25px);
@@ -229,6 +229,11 @@ color: #000000 !important;
       }
 
 
+      .card-img-top {
+          height: 200px;
+          width: 200px;
+      }
+
 .jumboCopy {
     background-color: rgba(0, 0, 0, 0.20);
 }
@@ -254,3 +259,17 @@ color: #000000 !important;
     text-align: center;
     padding-top: 20px;
 }
+
+.silver {
+    background-color: silver;
+}
+
+.gold {
+    background-color: goldenrod;
+}
+
+.platinum {
+    background-color: grey;
+}
+
+
