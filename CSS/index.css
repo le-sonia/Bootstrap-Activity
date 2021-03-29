@@ -233,3 +233,12 @@ color: #000000 !important;
 .galleryContainer .galleryImage {
     margin: 10px !important;
 }
+
+.menuItems {
+    text-align: center;
+}
+
+.menuTitle {
+    text-align: center;
+    padding-top: 20px;
+}
