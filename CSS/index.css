@@ -32,10 +32,15 @@ h1, h2, h3 , h4, h5, h6 {
     color: white !important;
   }
 
-  .btn {
+  .btn-primary {
       background-color: #92A471;
       border: 1px solid #92A471;
       color: white !important;
+  }
+
+  .btn-outline-primary {
+    color:black;
+    border: 1px solid #000000;
   }
   
   .btn:hover {
@@ -130,6 +135,7 @@ color: #000000 !important;
   }
   .imageContainer img {
     width: 100%;
+    border-radius: 8px;
   }
   .imageContainer {
     padding: 50px;
@@ -295,15 +301,18 @@ color: #000000 !important;
 
 .silver {
     background-color: rgba(219, 188, 170, 0.5);
+    border-radius: 8px;
 }
 
 .gold {
     background-color: rgba(190, 110, 107, 0.5);
+    border-radius: 8px;
     
 }
 
 .platinum {
     background-color: rgba(99, 42, 47, 0.5);
+    border-radius: 8px;
 }
 
 
@@ -324,7 +333,6 @@ color: #000000 !important;
     height: 400px;
     width: auto;
 margin-bottom: 20px;
-border-radius: 8px;
 }
 
 .aboutUsContainer {
@@ -335,27 +343,4 @@ border-radius: 8px;
     margin-right: 80px;
 }
 
-.aboutUsCTA {
-    background-image: url(../Images/image12.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: calc(100vh - 150px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 90px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-}
-
-.CTACopy {
-    width: 70%;
-    min-width: 500px;
-    max-width: 700px;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(219, 188, 170, 0.7);
-    border-radius: 8px;
-  }
 
