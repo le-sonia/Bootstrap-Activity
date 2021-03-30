@@ -112,7 +112,7 @@ color: #000000 !important;
   }
 
   .cardContainer img {
-    height: 250px;
+    height: 200px;
     max-width: auto;
     object-fit: scale-down;
 }
@@ -290,15 +290,17 @@ color: #000000 !important;
 }
 
 .silver {
-    background-color: silver;
+    background-color: #DBBCAA;
 }
 
 .gold {
-    background-color: goldenrod;
+    background-color: #BE6E6B;
+    
 }
 
 .platinum {
-    background-color: grey;
+    background-color: #632A2F;
+    color: white;
 }
 
 
