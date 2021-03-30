@@ -63,6 +63,7 @@ color: #000000 !important;
 
   .navbar-light .navbar-nav .active>.nav-link {
     color: #632A2F !important;
+    font-weight: 700;
 }
   
   .navCTA {
@@ -120,6 +121,12 @@ color: #000000 !important;
   }
   .imageContainer {
     padding: 50px;
+    text-align: center;
+  }
+
+  .imageContainer .sideText {
+      font-size: 100px;
+      color: #632A2F;
   }
 
   .valueProp {
@@ -271,5 +278,6 @@ color: #000000 !important;
 .platinum {
     background-color: grey;
 }
+
 
 
