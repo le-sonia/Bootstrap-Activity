@@ -307,4 +307,55 @@ color: #000000 !important;
 }
 
 
+/* .aboutUsContainer {
+    justify-content: center;
+    align-items: center;
+} */
+
+.aboutUsText {
+    text-align: left;
+    /* padding: 15px; */
+    margin-bottom: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+.aboutUsImage img {
+    height: 400px;
+    width: auto;
+margin-bottom: 20px;
+border-radius: 8px;
+}
+
+.aboutUsContainer {
+    padding 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+}
+
+.aboutUsCTA {
+    background-image: url(../Images/image12.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.CTACopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(219, 188, 170, 0.7);
+    border-radius: 8px;
+  }
 
