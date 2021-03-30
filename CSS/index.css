@@ -110,6 +110,14 @@ color: #000000 !important;
   .cardContainer {
     text-align: center;
   }
+
+  .cardContainer img {
+    height: 250px;
+    max-width: auto;
+    object-fit: scale-down;
+}
+
+
   
   /* Content */
   .sideAccent {
@@ -206,7 +214,7 @@ color: #000000 !important;
       }
 
       .galleryBackground {
-        background-image: url(../Images/image5.jpeg);
+        background-image: url(../Images/image31.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         height: calc(100vh - 25px);
@@ -226,7 +234,7 @@ color: #000000 !important;
       }
 
       .menuBackground {
-        background-image: url(https://images.unsplash.com/photo-1520869578617-557561d7b114?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnw4MzYyODcxfHxlbnwwfHx8&auto=format&fit=crop&w=800&q=60);
+        background-image: url(../Images/image41.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         height: calc(100vh - 25px);
@@ -235,6 +243,16 @@ color: #000000 !important;
         justify-content: center;
       }
 
+.bookBackground {
+    background-image: url(../Images/image35.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: calc(100vh - 25px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
 
       .card-img-top {
           height: 200px;
@@ -242,16 +260,20 @@ color: #000000 !important;
       }
 
 .jumboCopy {
-    background-color: rgba(0, 0, 0, 0.20);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
 }
 
 .galleryContainer {
     margin: 20px;
-    
 }
+
 .galleryContainer img {
+    /* height: 200px;
+    width: 200px; */
     height: 200px;
-    width: 200px;
+    max-width: auto;
+    object-fit: contain;
 }
 
 .galleryContainer .galleryImage {
