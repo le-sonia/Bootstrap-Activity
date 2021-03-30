@@ -74,12 +74,15 @@ color: #000000 !important;
   .navCTA {
     font-size: 15px;
     color: white !important;
+
   }
 
   .button {
       text-align: center;
+      float: left;
   }
   
+
 
   /* Jumbotron  */
   .jumbotron {
@@ -169,9 +172,10 @@ color: #000000 !important;
     height: 500px;
   }
   
-  /* Footer form */
+  /* form */
   form {
     width: 500px;
+    height: auto;
     margin: 35px auto;
     padding: 45px;
     border: 1px solid #F2F2F2;
@@ -181,6 +185,29 @@ color: #000000 !important;
     background-color: white;
   }
   
+/* .formImage {
+    max-width: 400px;
+    height: auto;
+    max-height: 300px;
+} */
+
+
+.formRight {
+    width: 500px;
+    height: auto;
+    margin: 35px auto;
+    padding: 45px;
+    border: 1px solid #F2F2F2;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+
+  .formContainer {
+      width: 90vw;
+  }
+
   /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
   .dropdown-menu {
     left: -97px;
