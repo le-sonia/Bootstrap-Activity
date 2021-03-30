@@ -294,17 +294,16 @@ color: #000000 !important;
 }
 
 .silver {
-    background-color: #DBBCAA;
+    background-color: rgba(219, 188, 170, 0.5);
 }
 
 .gold {
-    background-color: #BE6E6B;
+    background-color: rgba(190, 110, 107, 0.5);
     
 }
 
 .platinum {
-    background-color: #632A2F;
-    color: white;
+    background-color: rgba(99, 42, 47, 0.5);
 }
 
 
