@@ -223,44 +223,69 @@
         </div>
     </div>
 
-        <form class="menuCTA">
-            <h2 class="sectionHeading">Have more questions or additional requests?</h2>
-            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+    <form class="menuCTA">
+        <h2 class="sectionHeading">Have more questions or additional requests?</h2>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+            Contact Us
+        </a>
     </form>
- 
-<!-- Contact Form  -->
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
-              <h2>Contact</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
-                <form id="contact-form" class="form" action="#" method="POST" role="form">
+
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            <form>
+                <div class="form-group">
                     <div class="form-group">
-                        <label class="form-label" for="name">Your Name</label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1" required>
-                    </div>                            
-                    <div class="form-group">
-                        <label class="form-label" for="email">Your Email</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
-                    </div>                            
-                    <div class="form-group">
-                        <label class="form-label" for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
-                    </div>                            
-                    <div class="form-group">
-                        <label class="form-label" for="message">Message</label>
-                        <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." tabindex="4" required></textarea>                                 
+                        <label for="inputEmail4">Your Name</label>
+                        <input type="email" class="form-control" id="inputName" placeholder="First Name">
                     </div>
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-start-order">Send Message</button>
+                    <div class="form-group">
+                        <label for="inputEmail4">Your Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="example@gmail.com">
                     </div>
-                </form>
-            </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Choose topic</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Wedding</option>
+                            <option>Photoshoot request</option>
+                            <option>Business request</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Your message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="button"><button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#exampleModal">Submit</button></div>
+                </div>
+    
+    
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">You sucessfully submitted your message</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Thank you for contacting us. We will try to reply as soon as possible.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+    
         </div>
-      </div>
+        </div>
+    </div>
 
 
 
@@ -276,73 +301,6 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-
-
-        <!-- JS -->
-        <script>
-        $(document).ready(function() {
-            // Test for placeholder support
-            $.support.placeholder = (function(){
-                var i = document.createElement('input');
-                return 'placeholder' in i;
-            })();
-        
-            // Hide labels by default if placeholders are supported
-            if($.support.placeholder) {
-                $('.form-label').each(function(){
-                    $(this).addClass('js-hide-label');
-                });  
-        
-                // Code for adding/removing classes here
-                $('.form-group').find('input, textarea').on('keyup blur focus', function(e){
-                    
-                    // Cache our selectors
-                    var $this = $(this),
-                        $label = $this.parent().find("label");
-                            
-                                switch(e.type) {
-                                    case 'keyup': {
-                                         $label.toggleClass('js-hide-label', $this.val() == '');
-                                    } break;
-                                    case 'blur': {
-                                        if( $this.val() == '' ) {
-                            $label.addClass('js-hide-label');
-                        } else {
-                            $label.removeClass('js-hide-label').addClass('js-unhighlight-label');
-                        }
-                                    } break;
-                                    case 'focus': {
-                                        if( $this.val() !== '' ) {
-                            $label.removeClass('js-unhighlight-label');
-                        }
-                                    } break;
-                                    default: break;
-                                }
-                                // previous implementation with ifs
-                    /*if (e.type == 'keyup') {
-                        if( $this.val() == '' ) {
-                            $parent.addClass('js-hide-label'); 
-                        } else {
-                            $parent.removeClass('js-hide-label');   
-                        }                     
-                    } 
-                    else if (e.type == 'blur') {
-                        if( $this.val() == '' ) {
-                            $parent.addClass('js-hide-label');
-                        } 
-                        else {
-                            $parent.removeClass('js-hide-label').addClass('js-unhighlight-label');
-                        }
-                    } 
-                    else if (e.type == 'focus') {
-                        if( $this.val() !== '' ) {
-                            $parent.removeClass('js-unhighlight-label');
-                        }
-                    }*/
-                });
-            } 
-        });
-</script>
 </body>
 
 </html>
