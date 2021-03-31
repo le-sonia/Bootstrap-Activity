@@ -382,8 +382,10 @@ margin-bottom: 20px;
 }
 
 .weddingFooter {
- height: 600px;
+ height: 400px;
+ line-height: 30px;
  background-color: rgba(219, 188, 170, 0.5);
+ padding: 10px;
 }
 
 a {
