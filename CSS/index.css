@@ -381,4 +381,15 @@ margin-bottom: 20px;
     padding: 20px;
 }
 
+.weddingFooter {
+ height: 600px;
+ background-color: rgba(219, 188, 170, 0.5);
+}
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: #92A471;
+}
