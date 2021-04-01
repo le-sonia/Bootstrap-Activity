@@ -186,6 +186,22 @@ color: #000000 !important;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
     background-color: white;
   }
+
+  .bookForm img {
+    width: auto;
+    height: 700px;
+  }
+
+  .contactForm img {
+    width: auto;
+    height: 600px;
+  }
+
+  .homeForm img {
+    width: auto;
+    height: 700px;
+  }
+
   
 /* .formImage {
     max-width: 400px;
@@ -193,7 +209,7 @@ color: #000000 !important;
     max-height: 300px;
 } */
 
-
+/* 
 .formRight {
     width: 500px;
     height: auto;
@@ -204,7 +220,7 @@ color: #000000 !important;
     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
     background-color: white;
-  }
+  } */
 
   .formContainer {
       width: 90vw;
