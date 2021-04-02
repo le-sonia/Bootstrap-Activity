@@ -325,8 +325,6 @@ color: #000000 !important;
 }
 
 .galleryContainer img {
-    /* height: 200px;
-    width: 200px; */
     height: 200px;
     max-width: auto;
     object-fit: contain;
